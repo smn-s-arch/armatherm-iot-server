@@ -18,23 +18,23 @@ Via SSH auf dem Server einloggen:
 ```bash
 ssh <username>@<ip-des-ubuntu-servers>
 ```
-Alle nachfolgenden Befehle werden immer in der Shell auf dem Server ausgeführt.
+Alle nachfolgenden Befehle werden **immer** in der Shell auf dem Server ausgeführt.
 
 ### 1. Vorbereitung: 
 Die folgenden Repos müssen in das home Verzeichnis des Servers geklont werden:
-- [armatherm-chirpstack](www.github.com/smn-s-arch/armatherm-chirpstack) 
+- [armatherm-chirpstack](https://github.com/smn-s-arch/armatherm-chirpstack) 
 
     ```bash
     git clone https://github.com/smn-s-arch/armatherm-chirpstack.git
     ```
 
-- [armatherm-thingsboard](www.github.com/smn-s-arch/armatherm-thingsboard)
+- [armatherm-thingsboard](https://github.com/smn-s-arch/armatherm-thingsboard)
 
     ```bash
     git clone https://github.com/smn-s-arch/armatherm-thingsboard.git
     ```
 
-- [armatherm-mtcap](www.github.com/smn-s-arch/armatherm-mtcap)
+- [armatherm-mtcap](https://github.com/smn-s-arch/armatherm-mtcap)
     
     ```bash
     git clone https://github.com/smn-s-arch/armatherm-mtcap.git
